@@ -274,18 +274,18 @@
 	</div>
 
 
-	<script src="Js/jquery.js"></script>
-	<script src="Js/jquery.cookie.js"></script>
-	<script src="Js/unslider.js"></script>
-	<script src="Js/placeholders.js"></script>
+	<script src="/Js/jquery.js"></script>
+	<script src="/Js/jquery.cookie.js"></script>
+	<script src="/Js/unslider.js"></script>
+	<script src="/Js/placeholders.js"></script>
 	<script>
 		var AreaSuggest = '<?= $this->AreaSuggest ?>';
 		var AreaMenu = JSON.parse('<?= json_encode($this->AreaMenu); ?>');
 		var username = '<?= $this->Username ?>';
 	</script>
-	<script src="Js/common-top.js"></script>
-	<script src="Js/change-city.js"></script>
-	<script src="Js/index.js"></script>
+	<script src="/Js/common-top.js"></script>
+	<script src="/Js/change-city.js"></script>
+	<script src="/Js/index.js"></script>
 </body>
 </html>
 

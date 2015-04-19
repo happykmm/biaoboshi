@@ -14,35 +14,20 @@
 
 	<div id="container">
 		<div id="left">
-			<div class="title">知产学院
-			</div>
-			<a href="javascript:void(0)"><div class="row">
-				商标新闻
-			</div></a>
+			<div class="title">知产学院</div>
+			<a href="javascript:void(0)"><div class="row">商标新闻</div></a>
 			<div class="line"></div>
-			<a href="javascript:void(0)"><div class="row">
-				专利新闻
-			</div></a>
+			<a href="javascript:void(0)"><div class="row">专利新闻</div></a>
 			<div class="line"></div>
-			<a href="javascript:void(0)"><div class="row">
-				版权新闻
-			</div></a>
+			<a href="javascript:void(0)"><div class="row">版权新闻</div></a>
 			<div class="line"></div>
-			<a href="javascript:void(0)"><div class="row">
-				商标法规
-			</div></a>
+			<a href="javascript:void(0)"><div class="row">商标法规</div></a>
 			<div class="line"></div>
-			<a href="javascript:void(0)"><div class="row">
-				专利法规
-			</div></a>
+			<a href="javascript:void(0)"><div class="row">专利法规</div></a>
 			<div class="line"></div>
-			<a href="javascript:void(0)"><div class="row">
-				版权法规
-			</div></a>
+			<a href="javascript:void(0)"><div class="row">版权法规</div></a>
 			<div class="line"></div>
-			<a href="javascript:void(0)"><div class="row">
-				其他行业
-			</div></a>
+			<a href="javascript:void(0)"><div class="row">其他行业</div></a>
 		</div>
 		<div id="right">
 			<div class="title">
@@ -73,17 +58,27 @@
 				</ul>
 			</div>
 		</div>
+		<div id="link">
+			<span><a href="javascript:void(0)">上一篇</a></span>
+			<span>|</span>
+			<span><a href="javascript:void(0)">下一篇</a></span>
+		</div>
+		<div class="clear-float"></div>
 	</div>
 
-	<script src="Js/jquery.js"></script>
-	<script src="Js/jquery.cookie.js"></script>
-	<script src="Js/placeholders.js"></script>
+	<div id="common-end" class="static">
+		<div style="background-image: url(/Image/index_end.png);"></div>
+	</div>
+
+	<script src="/Js/jquery.js"></script>
+	<script src="/Js/jquery.cookie.js"></script>
+	<script src="/Js/placeholders.js"></script>
 	<script>
 		var AreaSuggest = '<?= $this->AreaSuggest ?>';
 		var AreaMenu = JSON.parse('<?= json_encode($this->AreaMenu); ?>');
 		var username = '<?= $this->Username ?>';
 	</script>
-	<script src="Js/common.js"></script>
-	<script src="Js/change-city.js"></script>
+	<script src="/Js/common.js"></script>
+	<script src="/Js/change-city.js"></script>
 </body>
 </html>

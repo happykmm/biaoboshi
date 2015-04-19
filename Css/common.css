@@ -158,6 +158,8 @@
 	top: 40px;
 	right: 0;
 	display: block;
+	width: 74px;
+	background-color: transparent;
 }
 
 #common-header #header-main ul#link a{

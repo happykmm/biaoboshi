@@ -19,9 +19,9 @@
 				<li>|</li>
 			</ul>
 			<ul class="blue">
-				<li><a href="/" id="home">首页</a></li>
-				<li><a href="/Login" id="login">登录</a></li>
-				<li><a href="/Reg" id="regist">注册</a></li>
+				<li><a href="/">首页</a></li>
+				<li><a href="/Login">登录</a></li>
+				<li><a href="/Reg">注册</a></li>
 			</ul>
 		</div>
 		</div>

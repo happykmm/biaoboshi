@@ -60,8 +60,8 @@
 	<div id="common-end" class="absolute">
 		<div style="background-image: url(/Image/common_end.png);"></div>
 	</div>
-	<script src="Js/jquery.js"></script>
-	<script src="Js/placeholders.js"></script>
-	<script src="Js/login.js"></script>
+	<script src="/Js/jquery.js"></script>
+	<script src="/Js/placeholders.js"></script>
+	<script src="/Js/login.js"></script>
 </body>
 </html>

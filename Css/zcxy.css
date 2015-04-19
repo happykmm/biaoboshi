@@ -5,6 +5,8 @@ html {
 #container {
 	width: 1012px;
 	margin: 0 auto;
+	padding-top: 5px;
+	padding-bottom: 50px;
 	font-family: "microsoft yahei", simhei, sans-serif;
 }
 
@@ -91,6 +93,26 @@ html {
 }
 
 #right .clear-float {
+	width: 100%;
+	height: 0px;
+	clear: both;
+}
+
+#link {
+	float: right;
+	color: #ffffff;
+	background-color: #14a4d0;
+	width: 122px;
+	height: 29;
+	text-align: center;
+	line-height: 29px;
+}
+
+#link span a {
+	color: #ffffff;
+}
+
+.clear-float {
 	width: 100%;
 	height: 0px;
 	clear: both;
