@@ -1,0 +1,156 @@
+
+html { overflow-y: auto; }
+
+
+#container {
+	width: 570px;
+	margin: 0 auto;
+	font-family: "microsoft yahei", simhei, sans-serif;
+	padding-top: 30px;
+}
+
+#icon {
+	width: 178px;
+	height: 116px;
+	margin: 0 auto;
+	display: block;
+}
+
+#title {
+	width: 320px;
+	margin: 15px auto 25px auto;
+	font-size: 22px;
+	color: #14a4d0;
+}
+
+#main {
+	width: 520px;
+	margin: 0 auto;
+	background-color: #3eb4d8;
+
+}
+
+
+
+#main-title {
+	font-size: 24px;
+	color: #fffc00;
+	margin: 0 auto;
+	width: 114px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#main-body {
+	width: 472px;
+	margin: 0 auto;
+}
+
+#main-body #left {
+	width: 220px;
+	float: left;
+}
+
+.row{
+	height: 32px;
+	line-height: 32px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#main-body #left .row {
+	float: right;
+}
+
+.label-text {
+	color: #1e1e1e;
+}
+
+.text {
+	width: 140px;
+	height: 28px;
+	border: 0px;
+	border-radius: 6px;
+}
+
+.password {
+	width: 140px;
+	height: 28px;
+	border: 0px;
+	border-radius: 6px;
+}
+
+#submit-wrap a:hover {
+	text-decoration: none;
+}
+
+#submit {
+	width: 140px;
+	height: 28px;
+	line-height: 28px;
+	color: #14a4d0;
+	background-color: #fffc00;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 6px;
+}
+
+#regist-wrap a:hover {
+	text-decoration: none;
+}
+
+#regist {
+	width: 140px;
+	height: 28px;
+	line-height: 28px;
+	color: #14a4d0;
+	background-color: #fffc00;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 6px;
+}
+
+#autologin-wrap {
+	color: #ffffff;
+	font-size: 12px;
+}
+
+#autologin-wrap a {
+	color: #ffffff;
+	font-size: 12px;
+}
+
+#main-body #line {
+	width: 1px;
+	height: 210px;
+	background-color: #1d93b7;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#main-body #right {
+	width: 220px;
+	float: left;
+}
+
+#main-body #right .row {
+	float: left;
+	clear: both;
+}
+
+.clear-float {
+	width: 100%;
+	height: 0px;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+#intro-title {
+	color: #067ca0;
+}
+
+#intro-content {
+	color: #f6fbfd;
+	line-height: 23px;
+}

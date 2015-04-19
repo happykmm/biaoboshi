@@ -4,185 +4,15 @@
 	<meta charset="UTF-8">
 	<title>标博士网站 - 首页</title>
 	<link rel="stylesheet" href="/Css/init.css">
-	<link rel="stylesheet" href="/Css/index.css">
+	<link rel="stylesheet" href="/Css/common.css">
 	<link rel="stylesheet" href="/Css/change-city.css">
+	<link rel="stylesheet" href="/Css/index.css">
 </head>
 <body>
 	
-
-	
-	<div id="nav">
-		<div class="center">
-		<div id="nav-content">
-			<ul class="white">
-				<li><a href="" id="joinus">加盟我们</a></li>
-				<li>|</li>
-				<li><a href="javascript:void(0)" id="favor">收藏我们</a></li>
-			</ul>
-			<ul class="grey">
-				<li>您好！</li>
-				<li>{{username}}</li>
-				<li><a href="" id="logout">退出</a></li>
-				<li><a href="" id="order">我的订单</a></li>
-				<li><a href="" id="cart">我的购物车</a></li>
-				<li><a href="" id="message">我的消息</a></li>
-				<li>|</li>
-			</ul>
-			<ul class="blue">
-				<li><a href="" id="home">首页</a></li>
-				<li><a href="" id="login">登陆</a></li>
-				<li><a href="" id="regist">注册</a></li>
-			</ul>
-		</div>
-		</div>
-	</div>
-
-	<div id="header">
-		<div id="header-wrap" class="center">
-			<div id="header-main" >
-				<img id="icon" src="/Image/index_icon.png" alt="标博士图标">
-				<a id="cityswitch" href="javascript:void(0)">城市选择</a>
-				<div id="citymenu">
-					<div id="change-city">
-					  <div id="bdw" class="bdw">
-					    <div id="bd" class="cf">
-					      <div class="choosecities">
-					        <div class="citieslist">
-								<h2 class="ABCDE">ABCDE<span class="arrow">&raquo;</span></h2>
-								<h2 class="FGHJ">FGHJ<span class="arrow">&raquo;</span></h2>
-								<h2 class="KLMNP">KLMNP<span class="arrow">&raquo;</span></h2>
-								<h2 class="QRSTW">QRSTW<span class="arrow">&raquo;</span></h2>
-								<h2 class="XYZ">XYZ<span class="arrow">&raquo;</span></h2>
-								<ol class="citygroup ABCDE">
-									<li id="city-A">
-									  <p class="cf"><span class="label"><strong>A</strong></span></p>
-									</li>
-									<li id="city-B">
-									  <p class="cf"><span class="label"><strong>B</strong></span></p>
-									</li>
-									<li id="city-C">
-									  <p class="cf"><span class="label"><strong>C</strong></span></p>
-									</li>
-									<li id="city-D">
-									  <p class="cf"><span class="label"><strong>D</strong></span></p>
-									</li>
-									<li id="city-E">
-									  <p class="cf"><span class="label"><strong>E</strong></span></p>
-									</li>
-								</ol>
-								<ol class="citygroup FGHJ">
-									<li id="city-F">
-									  <p class="cf"><span class="label"><strong>F</strong></span></p>
-									</li>
-									<li id="city-G">
-									  <p class="cf"><span class="label"><strong>G</strong></span></p>
-									</li>
-									<li id="city-H">
-									  <p class="cf"><span class="label"><strong>H</strong></span></p>
-									</li>
-									<li id="city-J">
-									  <p class="cf"><span class="label"><strong>J</strong></span></p>
-									</li>
-								</ol>
-								<ol class="citygroup KLMNP">
-									<li id="city-K">
-									  <p class="cf"><span class="label"><strong>K</strong></span></p>
-									</li>
-									<li id="city-L">
-									  <p class="cf"><span class="label"><strong>L</strong></span></p>
-									</li>
-									<li id="city-M">
-									  <p class="cf"><span class="label"><strong>M</strong></span></p>
-									</li>
-									<li id="city-N">
-									  <p class="cf"><span class="label"><strong>N</strong></span></p>
-									</li>
-									<li id="city-P">
-									  <p class="cf"><span class="label"><strong>P</strong></span></p>
-									</li>
-								</ol>
-								<ol class="citygroup QRSTW">
-						            <li id="city-Q">
-						              <p class="cf"><span class="label"><strong>Q</strong></span></p>
-						            </li>
-						            <li id="city-R">
-						              <p class="cf"><span class="label"><strong>R</strong></span></p>
-						            </li>
-						            <li id="city-S">
-						              <p class="cf"><span class="label"><strong>S</strong></span></p>
-						            </li>
-						            <li id="city-T">
-						              <p class="cf"><span class="label"><strong>T</strong></span></p>
-						            </li>
-						            <li id="city-W">
-						              <p class="cf"><span class="label"><strong>W</strong></span></p>
-						            </li>
-					            </ol>
-								<ol class="citygroup XYZ">
-						            <li id="city-X">
-						              <p class="cf"><span class="label"><strong>X</strong></span></p>
-						            </li>
-						            <li id="city-Y">
-						              <p class="cf"><span class="label"><strong>Y</strong></span></p>
-						            </li>
-						            <li id="city-Z">
-						              <p class="cf"><span class="label"><strong>Z</strong></span></p>
-						            </li>
-					            </ol>
-					        </div>
-					      </div>
-					    </div>
-					    <!-- bd end -->
-					  </div>
-					  <!-- bdw end -->
-					</div>
-				</div>
-				<ul id="link">
-					<li><a id="link1" href="javascript:void(0)">发布信息</a></li>
-					<li><a id="link2" href="javascript:void(0)">求购信息</a></li>
-				</ul>
-				<div id="searchwrap">
-					<input type="text" id="text" placeholder="&nbsp;搜索：商标、专利……"/>
-					<a id="button" href="javascript:void(0)">搜&nbsp;索</a>
-				</div>
-			</div>
-			<div id="header-link" >
-				<ul>
-					<li><a href="javascript:void(0)">目录</a></li>
-					<li><a href="javascript:void(0)">商标转让</a></li>
-					<li><a href="javascript:void(0)">专利转让</a></li>
-					<li><a href="javascript:void(0)">网店转让</a></li>
-					<li><a href="javascript:void(0)">公司转让</a></li>
-					<li><a href="javascript:void(0)">品牌授权</a></li>
-					<li><a href="javascript:void(0)">商标查询</a></li>
-					<li><a href="javascript:void(0)">专利检索</a></li>
-				</ul>
-			</div>
-			<div id="header-down">
-				<ul>
-					<li><a href="javascript:void(0)">托管服务</a></li>
-					<li><a href="javascript:void(0)">自助服务</a></li>
-					<li><a href="javascript:void(0)">商标设计</a></li>
-					<li><a href="javascript:void(0)">法律服务</a></li>
-					<li><a href="javascript:void(0)">国内注册</a></li>
-					<li><a href="javascript:void(0)">国际注册</a></li>
-					<li><a href="javascript:void(0)">国内公司</a></li>
-					<li><a href="javascript:void(0)">国际公司</a></li>
-					<li><a href="javascript:void(0)">国内专利</a></li>
-					<li><a href="javascript:void(0)">国际专利</a></li>
-					<li><a href="javascript:void(0)">版权登记</a></li>
-					<li><a href="javascript:void(0)">资质认证</a></li>
-					<li><a href="javascript:void(0)">上市辅导</a></li>
-					<li><a href="javascript:void(0)">评估融资</a></li>
-					<li><a href="javascript:void(0)">企盟服助</a></li>
-					<li><a href="javascript:void(0)">表格下载</a></li>
-					<li><a href="javascript:void(0)">精彩视频</a></li>
-					<li><a href="javascript:void(0)">员工风采</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+	<?php include(__DIR__.'/Include/common-top.php'); ?>
  
+
 	<div id="zhuce">
 		<!--<a href="javascript:void(0)" style="background-image: url(/Image/index_zhuce.png);"></a>-->
 		<div class="banner">
@@ -194,9 +24,13 @@
 		    </ul>
 		</div>
 	</div>
+
+
 	<div id="xuanwo">
 		<div style="background-image: url(/Image/index_xuanwo.png);"></div>
 	</div>
+
+
 	<div id="zizhu">
 		<!--<a href="javascript:void(0)" style="background-image: url(/Image/index_zizhu.png);"></a>-->
 		<div class="banner">
@@ -330,46 +164,38 @@
 		</div>
 	</div>
 
+
 	<div id="qrcode">
 		<div style="background-image: url(/Image/index_qrcode.png);"></div>
 	</div>
 
+
 	<div id="comment">
 		<img src="/Image/index_usercmt.png" alt="用户评论" id="usercmt">
 		<img src="/Image/index_line.png" alt="" class="line">
-		<div class="item">
-			<div class="touxiang"><img src="/Image/index_touxiang.png" alt=""></div>
-			<div class="itemmain">
-				<div class="username">{{$username}}</div>
-				<div class="date">{{$date}}</div>
-				<div class="content">{{$content}}<br/>{{$content}}<br/>{{$content}}<br/>{{$content}}<br/></div>
+		<div id="comment-main">
+			<div class="item">
+				<div class="touxiang"><img src="/Image/index_touxiang.png" alt=""></div>
+				<div class="itemmain">
+					<div class="username">张先生</div>
+					<div class="date">2015-04-18 20:29:52</div>
+					<div class="content">标博士这网站，真心不错！</div>
+				</div>
 			</div>
+			<img src="/Image/index_line.png" alt="" class="line">
 		</div>
-		<img src="/Image/index_line.png" alt="" class="line">
-		<div class="item">
-			<div class="touxiang"><img src="/Image/index_touxiang.png" alt=""></div>
-			<div class="itemmain">
-				<div class="username">{{$username}}</div>
-				<div class="date">{{$date}}</div>
-				<div class="content">{{$content}}<br/>{{$content}}<br/>{{$content}}<br/>{{$content}}<br/></div>
-			</div>
-		</div>
-		<img src="/Image/index_line.png" alt="" class="line">
-				<div class="item">
-			<div class="touxiang"><img src="/Image/index_touxiang.png" alt=""></div>
-			<div class="itemmain">
-				<div class="username">{{$username}}</div>
-				<div class="date">{{$date}}</div>
-				<div class="content">{{$content}}<br/>{{$content}}<br/>{{$content}}<br/>{{$content}}<br/></div>
-			</div>
-		</div>
-		<img src="/Image/index_line.png" alt="" class="line">
 		<a id="loadmore" href="javascript:void(0)"><img src="/Image/index_loadmore.png" alt="" id="imgmore"></a>
 		<form action="javascript:void(0)" id="addcomment">
 			<textarea id="addcontent" name="" cols="30" rows="10"></textarea>
 			<a href="javascript:void(0)" id="submit"><span>发&nbsp;表&nbsp;评&nbsp;论</span></a>
+			<div id="comment-result">
+				<label id="comment-success">您的评论已收到，谢谢！</label>
+				<label id="comment-error-login">请先登录！</label>
+				<label id="comment-error-other">评论失败，请重试</label>
+			</div>
 		</form>
 	</div>
+
 
 	<div id="footer">
 		<div id="footer-main" class="center">
@@ -442,18 +268,24 @@
 		</div>
 	</div>
 
-	<div id="end">
+
+	<div id="common-end" class="static">
 		<div style="background-image: url(/Image/index_end.png);"></div>
 	</div>
+
+
 	<script src="Js/jquery.js"></script>
 	<script src="Js/jquery.cookie.js"></script>
 	<script src="Js/unslider.js"></script>
-	<script src="Js/index.js"></script>
+	<script src="Js/placeholders.js"></script>
 	<script>
 		var AreaSuggest = '<?= $this->AreaSuggest ?>';
 		var AreaMenu = JSON.parse('<?= json_encode($this->AreaMenu); ?>');
-		console.log(AreaMenu);
+		var username = '<?= $this->Username ?>';
 	</script>
+	<script src="Js/common-top.js"></script>
 	<script src="Js/change-city.js"></script>
+	<script src="Js/index.js"></script>
 </body>
 </html>
+

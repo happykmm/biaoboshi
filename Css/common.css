@@ -1,0 +1,308 @@
+
+.center {
+	width: 1026px; 
+	margin: 0 auto;
+}
+
+#common-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 44px;
+	background: #2f2f2f;
+	z-index: 9999;
+}
+
+@media screen and (max-width: 1026px) {
+	#common-nav {
+		width: 1026px;
+	}
+}
+
+#common-nav #nav-content {
+	float: right;
+}
+
+#common-nav ul {
+	display: inline-block;
+}
+
+#common-nav ul li{
+	display: inline-block;
+	line-height: 44px;
+}
+
+#common-nav ul.white {
+	margin-right: 30px;
+}
+
+#common-nav ul.white li {
+	color: #ffffff;
+}
+
+#common-nav ul.white li a  {
+	color: #ffffff;
+}
+
+#common-nav ul.grey li {
+	color: #e0e0e0;
+}
+
+#common-nav ul.grey li a {
+	color: #e0e0e0;
+}
+
+#common-nav ul.blue li a {
+	color: #079fce;
+}
+
+#common-nav #logout {
+	display: none;
+}
+
+#common-nav #username {
+	display: none;
+}
+
+#common-nav #login {
+	display: none;
+}
+
+#common-header {
+	position: fixed;
+	top: 44px;
+	left: 0;
+	width: 100%;
+	background: #ffffff;
+	z-index: 9999;
+}
+
+@media screen and (max-width: 1026px) {
+	#common-header {
+		width: 1026px;
+	}
+}
+
+#common-header #header-main {
+	height: 116px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#common-header #header-main img {
+	float: left;
+}
+
+#common-header #header-main #icon {
+	width: 178px;
+	height: 116px;
+	display: block;
+	float: left;
+}
+
+#common-header #header-main #cityswitch {
+	float: left;
+	border: 1px solid #28acd5;
+	margin-top: 48px;
+	margin-left: 20px;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#common-header #header-main #cityswitch:hover {
+	text-decoration: none;
+}
+
+#common-header #searchwrap {
+	position: absolute;
+	top: 42px;
+	right: 80px;
+	display: block;
+}
+
+#common-header #header-main #searchwrap #text {
+	width: 380px;
+	height: 42px;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #138ab5;
+	background: #ececec;
+}
+
+#common-header #header-main #searchwrap #button {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 42px;
+	line-height: 42px;
+	color: #0098c9;
+	background-color: #ececec;
+	border: 1px solid #138ab5;
+	font-size: 20px;
+	font-family: "microsoft yahei", simhei, sans-serif;
+	text-align: center;
+}
+
+#common-header #header-main #searchwrap #button:hover {
+	text-decoration: none;
+}
+
+#common-header #header-main ul#link {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	display: block;
+}
+
+#common-header #header-main ul#link a{
+	display: block;
+	width: 74px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+}
+
+#common-header #header-main ul#link a:hover {
+	text-decoration: none;
+}
+
+#common-header #header-main ul#link a#link1 {
+	color: #5bb5d8;
+	background-color: #c7c7c7;
+}
+
+#common-header #header-main ul#link a#link2 {
+	margin-top: 3px;
+	color: #c7c7c7;
+	background-color: #5bb5d8;
+
+}
+
+#common-header #header-link {
+	height: 40px;
+	font-size: 20px;
+	font-family: "microsoft yahei", simhei, sans-serif;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#common-header #header-link ul {
+	display: block;
+	margin: auto;
+
+}
+
+#common-header #header-link ul li {
+	display: inline-block;
+	margin: 0 10px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	/*background-color: red;*/
+}
+
+#common-header #header-link ul li a {
+	display: inline-block;
+	margin: 3px auto;
+	width: 100px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid;
+	border-color: transparent;
+	border-radius: 10px;
+	/*background: green;*/
+}
+
+#common-header #header-link ul li a:hover {
+	text-decoration: none;
+	border-color: #28acd5;
+}
+
+#common-header #citymenu {
+	display: none;
+	position: absolute;
+	top: 82px;
+	left: 198px;
+	background: red;
+	width: 800px;
+	/*height: 300px;*/
+	z-index: 1000;
+}
+
+#common-header #header-wrap {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#common-header #header-down {
+	display: none;
+	width: 122px;
+	height: 410px;
+	background-color: #369ec5;
+	position: absolute;
+	top: 172px;
+	left: 20px;
+}
+
+#common-header #header-down ul {
+	padding-top: 7px;
+	line-height: 22px;
+}
+
+#common-header #header-down li {
+	margin-left: 35px;
+	color: #fbffff;
+	font-family: "microsoft yahei", simhei, sans-serif;
+	font-size: 15px;
+	list-style-type: disc;
+}
+
+#common-header #header-down li a{
+	color: #fbffff;
+}
+
+#common-top-padding {
+	width: 100%;
+	height: 215px;
+}
+
+
+#common-end {
+	width: 100%;
+	height: 107px;
+	overflow: hidden;
+	text-align: center;
+}
+
+@media screen and (max-width: 1026px) {
+	#common-end {
+		width: 1026px;
+	}
+}
+
+#common-end > div{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: center no-repeat;
+	background-color: #000000;
+}
+
+#common-end.absolute {
+	position: absolute;
+	bottom: 0;
+}
+
+#common-end.static {
+	position: static;
+}
+
+
