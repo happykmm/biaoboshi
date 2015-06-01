@@ -6,7 +6,7 @@
 			<ul class="white">
 				<li><a href="" id="joinus">加盟我们</a></li>
 				<li>|</li>
-				<li><a href="javascript:void(0)" id="favor">收藏我们</a></li>
+				<li><a href="javascript:void(0)" id="addfavor">收藏我们</a></li>
 			</ul>
 			<ul class="grey">
 				<li>您好！</li>
@@ -139,7 +139,7 @@
 			</div>
 			<div id="header-link" >
 				<ul>
-					<li><a href="javascript:void(0)">目录</a></li>
+					<li><a id="header-link-mulu" href="javascript:void(0)">目录</a></li>
 					<li><a href="javascript:void(0)">商标转让</a></li>
 					<li><a href="javascript:void(0)">专利转让</a></li>
 					<li><a href="javascript:void(0)">网店转让</a></li>

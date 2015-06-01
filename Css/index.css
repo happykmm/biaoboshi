@@ -1,3 +1,5 @@
+
+
 .center {
 	width: 1026px; 
 	margin: 0 auto;
@@ -6,7 +8,7 @@
 
 #zhuce {
 	width: 100%;
-	/*height: 453px;*/
+	height: 453px;
 	overflow: hidden;
 	text-align:center;
 	position: relative;
@@ -22,42 +24,93 @@
 }
 
 #zhuce .banner ul li a {
-	display: block;
 	width: 100%;
 	height: 453px;
+	display: block;
 	background: center no-repeat;
 }
 
-
-.banner .dots {
+#zhuce .dots {
 	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 20px;
 }
 
-.banner .dots li {
+#zhuce .dots li {
 	display: inline-block;
 	width: 10px;
 	height: 10px;
 	margin: 0 4px;
-	
 	text-indent: -999em;
-	
 	border: 2px solid #fff;
 	border-radius: 6px;
-	
 	cursor: pointer;
 	opacity: .4;
-	
 	-webkit-transition: background .5s, opacity .5s;
 	-moz-transition: background .5s, opacity .5s;
 	transition: background .5s, opacity .5s;
 }
 
-.banner .dots li.active {
+#zhuce .dots li.active {
 	background: #fff;
 	opacity: 1;
+}
+
+#zhuce .arrow-wrap {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 7%;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+	filter: alpha(opacity=50);
+	opacity: .5;
+	z-index: 4;
+}
+
+#zhuce .arrow-wrap.arrow-left {
+	left: 0;
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+	background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	background-repeat: repeat-x;
+}
+
+#zhuce .arrow-wrap.arrow-right {
+	right: 0;
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+	background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+	background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+	background-repeat: repeat-x;
+}
+
+#zhuce .arrow-wrap:hover,
+#zhuce .arrow-wrap:focus {
+	color: #fff;
+	text-decoration: none;
+	filter: alpha(opacity=90);
+	outline: 0;
+	opacity: .9;
+}
+
+#zhuce .unslider-arrow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 5;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	margin-left: -15px;
+	font-size: 30px;
 }
 
 #xuanwo {
@@ -96,13 +149,91 @@
 	}
 }
 
-#zizhu .banner ul li a {
+#zizhu .banner ul li div {
 	display: block;
 	width: 100%;
 	height: 694px;
 	background: center no-repeat;
 }
 
+#zizhu .zizhu-title {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	right: auto;
+	width: 396px;
+	height: 121px;
+	margin-left: -198px;
+	z-index: 5;
+}
+
+#zizhu .zizhu-switch {
+	position: absolute;
+	top: 127px;
+	left: 50%;
+	width: 640px;
+	margin-left: -320px;
+}
+
+#zizhu .zizhu-switch .circle {
+	display: block;
+	width: 88px;
+	height: 88px;
+	border-radius: 44px;
+	border: 2px solid #fff;
+	background-color: #079fce;
+	float: left;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-family: "microsoft yahei", simhei, sans-serif;
+	font-size: 20px;
+}
+
+#zizhu .zizhu-switch .circle a {
+	color: #f1ed12;
+}
+
+#zizhu .zizhu-switch .circle a:hover {
+	text-decoration: none;
+}
+
+#zizhu .zizhu-switch .circle span {
+	display: block;
+	line-height: 33px;
+	margin-top: 11px;
+}
+
+#zizhu .zizhu-bottom {
+	display: block;
+	position: absolute;
+	bottom: 96px;
+	left: 50%;
+	width: 406px;
+	margin-left: -203px;
+}
+
+#zizhu .zizhu-bottom .capsule {
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	width: 110px;
+	margin-left: 15px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 10px;
+	font-family: "microsoft yahei", simhei, sans-serif;
+	font-size: 16px;
+}
+
+#zizhu .zizhu-bottom .capsule:hover {
+	background-color: #079fce;
+	color: #fff;
+}
+
+#zizhu .zizhu-bottom .capsule a:hover {
+	text-decoration: none;
+	color: #fff;
+}
 
 #tuoguan {
 	width: 100%;
@@ -366,8 +497,8 @@
 
 #comment img {
 	display: block;
-	margin: 0px auto;
-	padding: 10px 0;
+	margin: 10px auto;
+	padding: 0;
 	clear: both;
 }
 

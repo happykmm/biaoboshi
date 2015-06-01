@@ -1,3 +1,4 @@
+.label { padding:0; }
 
 .center {
 	width: 1026px; 
@@ -216,6 +217,7 @@
 	width: 100px;
 	height: 34px;
 	line-height: 34px;
+	color: #000;
 	border: 1px solid;
 	border-color: transparent;
 	border-radius: 10px;

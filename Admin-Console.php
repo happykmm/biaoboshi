@@ -13,12 +13,12 @@
         <div class="row">
             <div class="sidebar">
                 <ul class="nav nav-sidebar">
-                    <li class="active"><a href="#">管理后台 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">公司地址</a></li>
-                    <li><a href="#">评论管理</a></li>
+                    <li class="active"><a href="/Admin/Console">管理后台 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="/Admin/Address">公司地址</a></li>
+                    <li><a href="/Admin/Comment">评论管理</a></li>
                 </ul>
                 <ul class="nav nav-sidebar">
-                    <li><a href="#">知产学院</a></li>
+                    <li><a href="/Admin/Zcxy">知产学院</a></li>
                 </ul>
             </div>
             <div class="main">
@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-
+    <script src="/Js/ie-bug.js"></script>
   	<script src="/Js/jquery.js"></script>
   	<script src="/Js/bootstrap.min.js"></script>
 </body>

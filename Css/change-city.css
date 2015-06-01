@@ -97,7 +97,7 @@
 	BORDER-BOTTOM-COLOR: #00c7c7; BORDER-TOP-COLOR: #00c7c7; BACKGROUND: #00c7c7; COLOR: #fff; BORDER-RIGHT-COLOR: #00c7c7; BORDER-LEFT-COLOR: #00c7c7
 }
 #change-city .citieslist A {
-	PADDING-BOTTOM: 1px; LINE-HEIGHT: 20px; MARGIN: 5px 10px; PADDING: 5px 10px;  ZOOM: 1; DISPLAY: inline-block; HEIGHT: 20px;  border-radius: 0
+	PADDING-BOTTOM: 1px; LINE-HEIGHT: 20px; MARGIN: 0px 10px; PADDING: 5px 10px;  ZOOM: 1; DISPLAY: inline-block;   border-radius: 0
 }
 #change-city .citieslist A:hover {
 	BACKGROUND: #00c7c7; COLOR: #fff

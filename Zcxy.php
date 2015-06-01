@@ -69,9 +69,10 @@
 	<div id="common-end" class="static">
 		<div style="background-image: url(/Image/index_end.png);"></div>
 	</div>
-
+	<script src="/Js/ie-bug.js"></script>
 	<script src="/Js/jquery.js"></script>
 	<script src="/Js/jquery.cookie.js"></script>
+	<script src="/Js/jquery.mousewheel.js"></script>
 	<script src="/Js/placeholders.js"></script>
 	<script>
 		var AreaSuggest = '<?= $this->AreaSuggest ?>';

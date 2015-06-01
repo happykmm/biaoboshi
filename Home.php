@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="/Css/common.css">
 	<link rel="stylesheet" href="/Css/change-city.css">
 	<link rel="stylesheet" href="/Css/index.css">
+	<link rel="stylesheet" href="/Css/glyphicons.css">
 </head>
 <body>
 	
@@ -22,6 +23,12 @@
 		        <li><a href="javascript:void(0)" style="background-image: url(/Image/index_zhuce_3.jpg);"></a></li>
 		        <li><a href="javascript:void(0)" style="background-image: url(/Image/index_zhuce_4.jpg);"></a></li>
 		    </ul>
+		    <a class="arrow-wrap arrow-left">
+		        <span class="unslider-arrow prev glyphicon glyphicon-chevron-left"></span>
+		    </a>
+		    <a class="arrow-wrap arrow-right">
+		        <span class="unslider-arrow next glyphicon glyphicon-chevron-right"></span>
+		    </a>
 		</div>
 	</div>
 
@@ -35,9 +42,20 @@
 		<!--<a href="javascript:void(0)" style="background-image: url(/Image/index_zizhu.png);"></a>-->
 		<div class="banner">
 		    <ul>
-		        <li><a href="javascript:void(0)" style="background-image: url(/Image/index_zizhu_1.jpg);"></a></li>
-		        <li><a href="javascript:void(0)" style="background-image: url(/Image/index_zizhu_2.jpg);"></a></li>
+		        <li><div style="background-image: url(/Image/index_zizhu_1.jpg);"></div></li>
+		        <li><div style="background-image: url(/Image/index_zizhu_2.jpg);"></div></li>
 		    </ul>
+		</div>
+		<img class="zizhu-title" src="/Image/index_zzfw.png" alt="自助服务">
+		<div class="zizhu-switch">
+			<div class="circle"><a href="javascript:void(0)"><span>商标<br>注册</span></a></div>
+			<div class="circle"><a href="javascript:void(0)"><span>专利<br>申请</span></a></div>
+			<div class="circle"><a href="javascript:void(0)"><span>版权<br>登记</span></a></div>
+		</div>
+		<div class="zizhu-bottom">
+			<div class="capsule"><a href="javascript:void(0)">我要咨询</a></div>
+			<div class="capsule"><a href="javascript:void(0)">我要注册</a></div>
+			<div class="capsule"><a href="javascript:void(0)">申请优惠</a></div>
 		</div>
 	</div>
 
@@ -89,77 +107,77 @@
 		<div id="xinwen" class="row">
 			<div id="sbxw" class="col">
 				<img class="cate" src="/Image/index_sbxw.png" alt="商标新闻" >
-				<a href="javascript:void(0)"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
-				<a class="art" href="javascript:void(0)">投资规模，资金来源与资金运用</a>
+				<a href="/Zcxy"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
+				<a class="art" href="/Zcxy">投资规模，资金来源与资金运用</a>
 				<ul class="artlist">
-					<li><a href="javascript:void(0)">这是第一篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第2篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第3篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第4篇文章</a></li>
+					<li><a href="/Zcxy">这是第一篇文章</a></li>
+					<li><a href="/Zcxy">这是第2篇文章</a></li>
+					<li><a href="/Zcxy">这是第3篇文章</a></li>
+					<li><a href="/Zcxy">这是第4篇文章</a></li>
 				</ul>
-				<a class="learnmore" href="javascript:void(0)"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
+				<a class="learnmore" href="/Zcxy"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
 			</div>
 			<div id="zlxw" class="col">
 				<img class="cate" src="/Image/index_zlxw.png" alt="专利新闻" >
-				<a href="javascript:void(0)"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
-				<a class="art" href="javascript:void(0)">投资规模，资金来源与资金运用</a>
+				<a href="/Zcxy"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
+				<a class="art" href="/Zcxy">投资规模，资金来源与资金运用</a>
 				<ul class="artlist">
-					<li><a href="javascript:void(0)">这是第一篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第2篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第3篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第4篇文章</a></li>
+					<li><a href="/Zcxy">这是第一篇文章</a></li>
+					<li><a href="/Zcxy">这是第2篇文章</a></li>
+					<li><a href="/Zcxy">这是第3篇文章</a></li>
+					<li><a href="/Zcxy">这是第4篇文章</a></li>
 				</ul>
-				<a class="learnmore" href="javascript:void(0)"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
+				<a class="learnmore" href="/Zcxy"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
 			</div>
 			<div id="bcxw" class="col">
 				<img class="cate" src="/Image/index_bcxw.png" alt="版权新闻" >
-				<a href="javascript:void(0)"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
-				<a class="art" href="javascript:void(0)">投资规模，资金来源与资金运用</a>
+				<a href="/Zcxy"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
+				<a class="art" href="/Zcxy">投资规模，资金来源与资金运用</a>
 				<ul class="artlist">
-					<li><a href="javascript:void(0)">这是第一篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第2篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第3篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第4篇文章</a></li>
+					<li><a href="/Zcxy">这是第一篇文章</a></li>
+					<li><a href="/Zcxy">这是第2篇文章</a></li>
+					<li><a href="/Zcxy">这是第3篇文章</a></li>
+					<li><a href="/Zcxy">这是第4篇文章</a></li>
 				</ul>
-				<a class="learnmore" href="javascript:void(0)"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
+				<a class="learnmore" href="/Zcxy"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
 			</div>
 		</div>
 		<div id="fagui" class="row">
 			<div id="sbfg" class="col">
 				<img class="cate" src="/Image/index_sbfg.png" alt="商标法规" >
-				<a href="javascript:void(0)"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
-				<a class="art" href="javascript:void(0)">投资规模，资金来源与资金运用</a>
+				<a href="/Zcxy"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
+				<a class="art" href="/Zcxy">投资规模，资金来源与资金运用</a>
 				<ul class="artlist">
-					<li><a href="javascript:void(0)">这是第一篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第2篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第3篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第4篇文章</a></li>
+					<li><a href="/Zcxy">这是第一篇文章</a></li>
+					<li><a href="/Zcxy">这是第2篇文章</a></li>
+					<li><a href="/Zcxy">这是第3篇文章</a></li>
+					<li><a href="/Zcxy">这是第4篇文章</a></li>
 				</ul>
-				<a class="learnmore" href="javascript:void(0)"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
+				<a class="learnmore" href="/Zcxy"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
 			</div>
 			<div id="zlfg" class="col">
 				<img class="cate" src="/Image/index_zlfg.png" alt="专利法规" >
-				<a href="javascript:void(0)"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
-				<a class="art" href="javascript:void(0)">投资规模，资金来源与资金运用</a>
+				<a href="/Zcxy"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
+				<a class="art" href="/Zcxy">投资规模，资金来源与资金运用</a>
 				<ul class="artlist">
-					<li><a href="javascript:void(0)">这是第一篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第2篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第3篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第4篇文章</a></li>
+					<li><a href="/Zcxy">这是第一篇文章</a></li>
+					<li><a href="/Zcxy">这是第2篇文章</a></li>
+					<li><a href="/Zcxy">这是第3篇文章</a></li>
+					<li><a href="/Zcxy">这是第4篇文章</a></li>
 				</ul>
-				<a class="learnmore" href="javascript:void(0)"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
+				<a class="learnmore" href="/Zcxy"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
 			</div>
 			<div id="qthy" class="col">
 				<img class="cate" src="/Image/index_qthy.png" alt="其他行业" >
-				<a href="javascript:void(0)"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
-				<a class="art" href="javascript:void(0)">投资规模，资金来源与资金运用</a>
+				<a href="/Zcxy"><img class="pic" src="/Image/index_sbxw_img.png" alt=""></a>
+				<a class="art" href="/Zcxy">投资规模，资金来源与资金运用</a>
 				<ul class="artlist">
-					<li><a href="javascript:void(0)">这是第一篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第2篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第3篇文章</a></li>
-					<li><a href="javascript:void(0)">这是第4篇文章</a></li>
+					<li><a href="/Zcxy">这是第一篇文章</a></li>
+					<li><a href="/Zcxy">这是第2篇文章</a></li>
+					<li><a href="/Zcxy">这是第3篇文章</a></li>
+					<li><a href="/Zcxy">这是第4篇文章</a></li>
 				</ul>
-				<a class="learnmore" href="javascript:void(0)"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
+				<a class="learnmore" href="/Zcxy"><img src="/Image/index_learnmore.png" alt="了解更多详情"></a>
 			</div>
 		</div>
 	</div>
@@ -273,9 +291,10 @@
 		<div style="background-image: url(/Image/index_end.png);"></div>
 	</div>
 
-
+	<script src="/Js/ie-bug.js"></script>
 	<script src="/Js/jquery.js"></script>
 	<script src="/Js/jquery.cookie.js"></script>
+	<script src="/Js/jquery.mousewheel.js"></script>
 	<script src="/Js/unslider.js"></script>
 	<script src="/Js/placeholders.js"></script>
 	<script>
